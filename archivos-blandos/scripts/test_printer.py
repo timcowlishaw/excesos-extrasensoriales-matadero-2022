@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from escpos.printer import Usb
-p = Usb(1046, 20497)
+p = Usb(0x0416, 0x5011)
 
 # FIRST TEST
 #p.text("\"I insist on the fact that there is generally no growth, but only a luxurious squandering of energy in every form.\"\n\t- Georges Bataille,\n\tThe Accursed Share\n\n\n\n\n\n\n\n")
