@@ -1,0 +1,1197 @@
+﻿/* para div con opciones de login en sede en formato caja tablet */
+	
+@media screen and (min-width: 768px) and (max-width: 849px){
+	.login-sede-btn{
+	    font-size: 1.15em !important;
+	    line-height: 45px !important;
+	    width: 100%;
+	    margin: 0px 10px 10px 10px !important;
+	}
+	.login-sede-opt>.col-sm-3{
+	   width: 100%;
+	}
+
+	.login-sede-opt>.col-sm-9{
+	   width: 100%;
+	}
+	
+	#medios-acceso>.panel-type1 {
+ 	   border: none;
+	}
+	
+	#medios-acceso.nofluid {
+    	margin: 0 -42px;
+	}
+	
+	.login-sede-opt {
+    	text-align: center;
+	}
+
+	#medios-acceso>.panel-type1>.panel-heading {
+ 		text-align: left;
+  	  	background: 0 0;
+   		padding: 16px 14px 10px;
+	}
+
+	.panel.panel-type1 .panel-title {
+ 		font-size: 1.875em;
+	}
+	
+	.tramites-mc>.summary {
+    	display: none;
+	}
+	
+	.button-icon-arrowright{
+	    width: 30px !important;
+    	height: 30px !important;
+    	top: 7px !important;
+   		right: 7px !important;
+	}
+	.button-icon-arrowright:after{
+	    margin-top: -9px !important;
+   		left: 7px !important;
+   		font-size: 18px !important;
+	}
+}
+/* FIN para div con opciones de login en sede en formato caja tablet */
+
+/* Red social TikTok*/
+.follow-icon.tiktok:after {
+   content: url("/assets/css/img/icon/ico_tiktok.svg");
+}
+
+/* Mi carpeta */
+#volver_identificacion{
+	line-height: 38px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+@media (min-width: 768px){
+	#volver_identificacion>i.button-icon-arrowright{
+	    width: 26px;
+	    height: 25px;
+	    top: 6px;
+	    right: 6px;
+	}
+	
+	#volver_identificacion>i.button-icon-arrowright:after {
+	    font-size: 16px;
+	    margin-top: -8px;
+	    left: 6px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#volver_identificacion.button.button3 {
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    font-size: 1.15em;
+	    padding-left: 0px;
+	    line-height:45px;
+	}
+	#volver_identificacion>.button-icon-arrowright {
+		width: 30px;
+	    height: 30px;
+	    top: 7px;
+	    right: 7px;
+	}
+	
+	#volver_identificacion>.button-icon-arrowright:after {
+		font-size: 18px;
+		margin-top: -9px;
+    	left: 7px;
+	}
+}
+/* CABECERA MINIMA */
+.section-cont-min {
+	height: 25px;
+	min-height: auto;
+}	
+.headMin  { /*va en el layout*/
+	position: relative;
+}
+
+﻿/* MIMADRID */
+.menuVertical .menu > li > .btnSubmenu, .menuVertical .menu > li > a.desactivado {
+	padding-right: 15px !important;
+}
+
+.button.button4.login-sede-btn {
+	padding-left: 15px !important;
+	padding-right: 30px !important;
+}
+
+/** nuevos formatos datasets */
+
+/* hacemos que no recoja las imagenes recortando del png*/
+.ico-csv:after, .ico-json:after, .ico-xml:after{
+	background-image: none !important;
+}
+
+.event-info .ico-csv{
+	top: 20px;
+}
+
+.event-info .ico-json{
+	top: 20px;
+}
+.event-info .ico-json-ld{
+	top: 20px;
+	width: 40px !important;
+}
+
+.event-info .ico-n3{
+	top: 20px;
+}
+
+.event-info .ico-ttl{
+	top: 20px;
+}
+
+.event-info .ico-xml{
+	top: 20px;
+}
+
+.ico-csv {
+    background: url(/assets/css/img/icon/ico_CSV.svg) bottom no-repeat;
+    position: relative;
+}
+
+.ico-json {
+    background: url(/assets/css/img/icon/ico_JSON.svg) bottom no-repeat;
+    position: relative;
+}
+
+.ico-json-ld {
+    background: url(/assets/css/img/icon/ico_JSON-LD.svg) bottom no-repeat;
+    position: relative;
+}
+
+.ico-n3 {
+    background: url(/assets/css/img/icon/ico_N3.svg) bottom no-repeat;
+    position: relative;
+}
+
+.ico-ttl {
+    background: url(/assets/css/img/icon/ico_TTL.svg) bottom no-repeat;
+    position: relative;
+}
+
+.ico-xml {
+    background: url(/assets/css/img/icon/ico_XML.svg) bottom no-repeat;
+    position: relative;
+}
+
+.asociada-link.ico-csv {
+    background: url(/assets/css/img/icon/ico_CSV.svg) center left no-repeat;
+    background-size: 36px 36px;
+}
+
+
+.asociada-link.ico-json {
+    background: url(/assets/css/img/icon/ico_JSON.svg) center left no-repeat;
+    background-size: 36px 36px;
+}  
+
+.asociada-link.ico-json-ld {
+    background: url(/assets/css/img/icon/ico_JSON-LD.svg) center left no-repeat;
+    background-size: 50px 50px;
+}  
+
+.asociada-link.ico-n3 {
+    background: url(/assets/css/img/icon/ico_N3.svg) center left no-repeat;
+    background-size: 36px 36px;
+}
+
+.asociada-link.ico-ttl {
+    background: url(/assets/css/img/icon/ico_TTL.svg) center left no-repeat;
+    background-size: 36px 36px;
+}
+
+.asociada-link.ico-xml {
+    background: url(/assets/css/img/icon/ico_XML.svg) center left no-repeat;
+    background-size: 36px 36px;
+}
+
+/** FIN nuevos formatos datasets */
+
+/* Añadimos padding para los titulos de tercer nivel en los indices de las normativas*/
+.asociada-link.titleThirdLevel{
+	padding-left: 80px !important;
+}
+
+/* ACCESIBILIDAD */
+
+@media (min-width: 992px){
+	.searcher-link:after {
+	   color: #666 !important;
+	}
+}
+
+/*Creamo un estilo que no oculte el encabezado h2 para screen reader y no lo muestre a usuarios normales*/
+@media (min-width: 768px){
+	.sr-only-md{
+		position: absolute;
+	    width: 1px;
+	    height: 1px;
+	    margin: -1px;
+	    padding: 0;
+	    overflow: hidden;
+	    clip: rect(0,0,0,0);
+	    border: 0;
+	}
+}
+
+/* Agregamos los estilos del icono de redes sociales al listado de tramites*/
+.lista-tramites .tramites.redesSociales .icon {
+    position: relative;
+}
+
+.lista-tramites .tramites.redesSociales .icon:after {
+    line-height: 100%;
+    position: absolute;
+    content: "T";
+    font-family: AytMadIcons;
+    color: #003df6;
+    text-indent: 0;
+    font-size: 27px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-transform: none;
+}
+
+/* Añadido estilos para contextualizar el calendario */
+.actividades .calendario{
+	height: 100%;
+}
+
+/* Para el calendario eliminamos margenes inferiores, al espaciarse mediante em se descolocaba*/
+.actividades .calendario p{
+	margin-bottom: 0px !important;
+}
+
+/*Fin para los cambios para contextualizar el calendario*/
+
+/* Añadido estilos para mejorar el espaciado de textos del catálogo de trámites*/
+@media screen and (min-width: 767px) {
+	/* Damos espacio al texto al lado de la imagen para que no aparezca cada palabra por separado*/
+	.tramites-ciudadano .tramite .titulo{
+		width:100%;
+	}
+	
+	/* Añadido flex para los elementos del catálogo de trámites*/
+	.tramites-ciudadano div.row  ul.row{
+		display: flex;
+		flex-flow: row wrap;
+	}
+	
+	/* añadido flex para el conjunto de catálogo de trámites*/
+	.tramites-ciudadano .tramite{
+		display: flex;
+		flex-flow: row wrap;
+		height: 100%;
+	}
+	/* Se cambia a relativo y se muestra desde el final el boton*/
+	.tramites-ciudadano .tramite .button{
+		margin: 23px 0px 30px;
+		position: relative;
+		align-self: flex-end;
+		width: 90%;
+	}
+}
+/* Fin estilos del catálogo de trámites*/
+
+/* Se modifica el jumbotron para que el contraste en egob llegue a 4.5 */
+.tiny-text .jumbotron, .tiny-text.entradilla p.jumbotron{
+	background-color: #f2f2f2
+}
+
+/* Se cambia el contraste de todos los errores de los formularios */
+.hint{
+	color:#EF0000;
+}
+
+@-moz-document url-prefix() {
+/* Se le añade foco al botón que despliega el menú de navegación en dispositivos móviles*/
+	#sidebar-toggle-button:focus{
+		border-style: dotted;
+		border-color: white;
+	    border-width: 1px;
+	}
+	
+	/* Se añade foco al botón retroceder y cerrar del menú en modo movil*/
+	#menu .mm-header .mm-prev:focus, #menu .mm-header .mm-close:focus{
+		border-style: dotted;
+		border-color: white;
+	    border-width:1px;
+	}
+}
+
+/* Quita la linea inferior al hacer foco al icono de añadir favoritos*/
+.btnMenuVerticalFavoritos:focus, .btnMenuVerticalRss:focus,
+.btnMenuVerticalCSV:focus{
+	text-decoration: none;
+}
+
+/* Estos elementos se ponen con border para visualizar el foco en IE correctamente (cuando el outline no funciona) */
+.pagination>li.prev .pagination-text:focus, .pagination>li.next .pagination-text:focus,
+.carouselHome .item a:focus, .owl-theme .owl-controls .owl-page span:focus,
+.item a:focus, .owl-theme .owl-controls .owl-page.active span:focus{
+	border-style: solid;
+	border-color: black;
+    border-width:1px;
+}
+
+/* Se agregan elementos que no tienen el foco en alguno de los navegadores */
+.enlacesMenuVertical a:focus, .enlacesMenuVertical button:focus, 
+.menuVertical .menu > li > a:focus, .close-info:focus-within::after,
+.menuVertical .menu > li .submenu li a:focus{
+	outline: 1px dotted #003df6;
+}
+
+/* Se añade underline cuando el curso está sobre el elemento "X" de aviso*/
+.close-info:hover::after{
+    border-bottom: 1px solid #003df6;
+}
+
+/* Se sube el pop up de compartir, etc para que se pueda realizar el hover correctamente*/
+.menuVertical.normal .btnMenuVerticalCompartir:hover .text, .menuVertical.normal .btnMenuVerticalFavoritos:hover .text,
+.menuVertical.normal .btnMenuVerticalRss:hover .text, .menuVertical.normal .btnMenuVerticalCSV:hover .text{
+	top: 16px;
+}
+
+/* para que esté simetrico a los demás iconos el botón de suscribirse*/
+.menuVertical.normal .btnMenuVerticalMas .text{
+	top: 28px;
+}
+
+/* Ajustado el contraste de los textos inactivos en listados de sede */
+.lista-tramites .tramites.muted span {
+    color: #707070
+}
+
+/* Se aumenta el contraste de las fechas desactivadas del calendario */
+.datepicker table tr td.disabled, .datepicker table tr td.new, 
+.datepicker table.table-condensed tbody tr td.day.new a, .datepicker table tr td.disabled:hover,
+.datepicker table.table-condensed tbody tr td.day.old a{
+	color: #696969;
+}
+
+/* Se arregla el contraste de la fecha actual si aparece en el proximo mes*/
+.datepicker table.table-condensed tbody tr td.day.old.active a{
+	color: #999;
+}
+
+/*FIN ACCESIBILIDAD*/
+
+/* Ponemos en rojo las normativas no vigentes*/
+.red{
+	color: #af0c43;
+}
+
+/* formularios: que los textarea se vean amarillos al no validar*/
+.form.form-electronic textarea.errorField {
+    background: #ffffa0;
+}
+
+/* se aumenta el padding a la derecha para que los textos del menú lateral no solapen con el > */
+.menuVertical .menu > li > .btnSubmenu, .menuVertical .menu > li > a{
+	padding-right: 32px;
+}
+
+/* los botones de tipo 4 salen muy pegados en móvil, p.e. continuar en pag inicio wfors */
+@media screen and (max-width: 767px) {
+    .button.button4 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* CAMBIOS PARA NORMATIVA TIPO BOE */
+/* Añadimos sangria de primera linea */
+.normativa .tx-sangria{
+	 text-indent: 20px;
+}
+
+/* ajustamos las listas en normativa para que se vean similar a li-nivel-0 y en el PDF */
+.tiny-text-byn.normativa li {
+    line-height: 1.3em;
+    margin: 10px 0 0px 40px !important;
+}
+
+/* En los tiny añadimos sangría tabulada al blockquote */
+.tiny-text-byn blockquote, .tiny-text blockquote {
+    padding: 0 0 0 20px;
+}
+
+/* quitamos el estilo versal para las normativas */
+.normativa .tx-versal, .normativa .tx-versal-al-centrada, .normativa .tx-versal-al-derecha, 
+.normativa .tx-versal-al-izquierda, .normativa .tx-versal-al-justificada{
+	font-variant: normal;
+}
+
+/* A los titulos de la normativa se las pone con un wight de fuente normal*/
+/* para los titulos-1 y titulos-2 se le añade separacion entre las lineas */
+.normativa p.tx-titulo-1, .normativa td.tx-titulo-1,
+.normativa p.tx-titulo-1-al-izquierda, .normativa td.tx-titulo-1-al-izquierda,
+.normativa p.tx-titulo-1-al-centrada, .normativa td.tx-titulo-1-al-centrada,
+.normativa p.tx-titulo-1-al-derecha, .normativa td.tx-titulo-1-al-derecha,
+.normativa p.tx-titulo-1-al-justificada, .normativa td.tx-titulo-1-al-justificada,
+.normativa p.tx-titulo-2, .normativa td.tx-titulo-2,
+.normativa p.tx-titulo-2-al-izquierda, .normativa td.tx-titulo-2-al-izquierda,
+.normativa p.tx-titulo-2-al-centrada , .normativa td.tx-titulo-2-al-centrada,
+.normativa p.tx-titulo-2-al-derecha , .normativa td.tx-titulo-2-al-derecha,
+.normativa p.tx-titulo-2-al-justificada, .normativa td.tx-titulo-2-al-justificada {
+	font-weight: normal;
+    line-height: 2.0em;
+}
+
+/* Adaptamos pading y margin para adaptar el texto como si tuviera line-height de los titulos-1 y 2*/
+.normativa p.tx-titulo-3, .normativa td.tx-titulo-3,
+.normativa p.tx-titulo-3-al-izquierda, .normativa td.tx-titulo-3-al-izquierda,
+.normativa p.tx-titulo-3-al-centrada , .normativa td.tx-titulo-3-al-centrada,
+.normativa p.tx-titulo-3-al-derecha , .normativa td.tx-titulo-3-al-derecha,
+.normativa p.tx-titulo-3-al-justificada, .normativa td.tx-titulo-3-al-justificada  {
+    font-weight: normal;
+}
+
+
+/* detalle de normativa párrafos separados y sin sangría de primera línea*/
+.normativa p {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-indent:0px;
+}
+
+/* marcar todos los bordes en las tablas de byn */
+.tiny-text-byn table tr, .tiny-text-byn table td {
+    border: 1px solid #f2f2f2;
+}
+/* fin normativa */
+
+/* para imagenes de las opciones de login en sede en formato caja */
+.login-sede-img {
+    padding-top:5px; 
+    height: 77px;
+}
+
+/* para texto "Conectar con.." en botones login sede */
+span.login-sede-btn {
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    margin-right: 7px;
+    margin-left: -10px;
+}
+
+/* para div con opciones de login en sede en formato caja */
+.login-sede-opt {
+    margin-bottom: 8px; 
+    border: 0.5px solid #d7d7d7;
+}
+
+@media screen and (min-width: 850px) {
+    .login-sede-opt .login-sede-btn{
+        width:87%;
+        margin-left:15px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .login-sede-opt .login-sede-btn{
+        width:82%;
+        margin-left:25px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .login-sede-opt {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .login-sede-btn {
+        margin-top: 22px;
+    }
+}
+
+/* reducir el tamaño de letra de los botones en móvil */
+@media screen and (max-width: 767px) {
+    .button.button4 {
+	    font-size: 1.15em;
+    }
+}
+
+/* no flotar el panel de relaciones debajo del detalle, si la imagen era más larga que el texto se podía montar */
+.nofluid .asociada {
+    clear: both;
+}
+
+/* los titulos de los avisos pueden tener correos y al ser largos no se cortaban */
+.info-seccion .modal-alert p.title-modal {
+    word-wrap: break-word;
+} 
+
+/* para poder usar p y div en la vista de comentarios */
+.panel.panel-type1 .panel-body .form p.label-group, .panel.panel-type1 .panel-body .form div.label-group {
+    font-size: .8em;
+    line-height: 16px;
+    color: #666;
+    margin-bottom: 13px;
+} 
+
+/* el texto en el pie de los portales fwk se ocultaba */
+footer .footer-logo p.fm-text {
+    display: block;
+    color: white;
+}
+
+/* poner icono deshabilitado en campos de formulario de solo lectura */ 
+.form.form-electronic input[readonly] {
+    cursor: not-allowed;
+}
+
+/* tramites a un clic, altura 9 elementos */
+@media screen and (min-width: 768px) {
+	.featured_clic-links {
+    	min-height: 392px; /* 152px para 6 elementos */
+	}
+}
+
+/* te interesa 6 elementos */
+.te_interesa a.texto1 {
+    font-size: 1.25em;
+}
+
+/*Asistente de navegación*/
+/* Adaptamos la ul para que se vea como una lista*/
+ul.with-style {
+	list-style: inherit;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	line-height: 1.3;
+	font-size: .875em;
+}
+
+/* No mostramos el elemento de las respuesta cuando se hace click*/
+.noshow.collapse.in{
+	display: none; 
+}
+/* No mostramos el elemento de las respuesta cuando se hace click*/
+.noshow.collapsing{
+	display: none;
+}
+
+/* Muestra la información de las respuestas*/
+.info-answer{
+	margin: 20px 25px 30px 50px;
+	line-height: 1.3;
+	font-size: .875em;
+}
+
+/* Muestra el color de letra y fondo de las respuesta y añade algo de separacion */
+.no-background .collapsed{
+	color: black !important;
+	background-color: white;
+	border-top: 1px dotted lightgray;
+	}
+/* para que no se descuadre si las respuestas ocupan 2 líneas */
+.tramite-detalles .panel-header-tramites a::after { top: 0;}
+.no-background a{
+	padding-left: 60px;
+	text-indent: 0 !important;
+	}
+	
+/* añadido margen inferior para los botones*/
+.button-separador{
+	margin-bottom: 30px;
+}
+
+/* Añadido margen inferior al separador*/
+hr.separador {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+ /* Quita los bordes de la caja de respuestas*/
+ .tramite-detalles .panel.no-background{
+  box-shadow:none;
+  border-style: none
+ }
+ 
+/* Quita los bordes de la caja de respuestas (responsive)*/
+@media (min-width:768px) {
+ .tramite-detalles .panel.no-background{
+  box-shadow:none;
+  border-style: none
+ }
+}
+
+/* Fin asistentes de navegación*/ 
+
+/* el enlace de registrarse de mi madrid no tiene el hover correcto */
+.panel-registrate-mimadrid a:hover h3 {
+	color:white;
+}
+
+/* los +/- del árbol han aumentado cuandos se cambió la fuente con icono whatsapp */
+.tree .tree-header .tree-toggle {
+    font-size:2.25em; 
+    padding:7px;
+}
+.tree .tree-header .tree-toggle.plus {
+    font-size:1.65em; 
+    padding:12px;
+}
+.info-detalles .header-panel-detalle a.collapsed::after {
+    font-size: 16px;
+    top: 60%;
+    right:16px;
+}
+
+/* el enlace trámites y gestiones en la home hacía un hover azul */
+.featured_clic a .texto2:hover {
+    color: 
+    white;
+}
+/*  para añadir p en las p de las noticas de la home: hay que centrarlo en vertical, 
+	además hay que repetir el hover que tiene el a a toda la capa para que cambie todo el bloque 
+	y quitar el color de fondo al a y ponerselo a p, porque quedaría una banda de color en el a */
+.vertical-middle {
+	vertical-align: middle;
+	display: table-cell;
+}
+.info_relevant-content.info_relevant-img_text.info_relevant-text.info_relevant-bg:hover {
+    background: #0000e1 !important;
+}
+.info_relevant-content.info_relevant-img_text.info_relevant-text.info_relevant-bg p a {
+    background: none !important;
+}
+
+/* si en lugar de h4 los modales son p, se juntan las letras si ocupa más de una línea */
+.info-seccion .modal-alert .title-modal {
+	line-height:24px
+}
+
+/* el cerrar de cookies salia muy pequeño */
+.panel-cookies a.eliminar:after {
+	font-size:	24px;
+}
+
+/* para listados paginados con ajax y persianas de sede y calendarios  */
+.ajax-error { color:red; }
+
+#ajaxLoading, .ajaxLoadingDiv{
+	height: 100%;
+	min-height: 130px;
+	width: 100%;
+	background-color: white;
+	opacity: 0.9;
+	background-image: url(img/icon/loading.gif);
+	background-repeat: no-repeat;
+	background-position-x:center;	
+	background-position-y:center;	
+}
+
+#ajaxLoading, .zindex { 
+	z-index: 1000;
+	position: absolute;
+}
+#ajaxLoading.top {
+	background-position:top;
+}
+#ajaxLoading.bottom {
+	background-position:bottom;
+}
+
+/* cambiar el icono de igualdad */
+.carouselHome .igualdad a::before, .listadoHome .igualdad a::before {
+	font-size: 1px;
+	content: "-";
+	background-image: url(img/icon/igualdad.png);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+.carouselHome .item a {
+	padding: 22px 4px 16px;
+}
+
+/* dar soporte a enlaces y listas en avisos */
+.info-seccion .modal-alert a {
+    color: #333;
+    text-decoration: underline;
+}
+.info-seccion .modal-alert.modal-info a, .info-seccion .modal-alert.modal-info li {
+    color: white;
+}
+
+/* quitar inclusite logo */
+ul.tabinclusite>li {
+	max-height: 150px !important;
+	overflow: hidden;
+	background: #fff none !important;
+	border: 1px solid #CCC !important;
+	border-left: 0px!important;
+	border-top-right-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+	height: 90px !important;
+}
+ul.tabinclusite > li #inclu_arrow {
+    top: 35px;
+}
+ul.tabinclusite > li a img.logo_inclusite {
+    top: -17px;
+    position: relative;
+}
+ 
+/* bootstrap styles */
+.m0 { margin:0 !important;}
+.p0 { padding:0 !important;}
+.mb-1 {	margin-bottom:1em;}
+.mb-2 {	margin-bottom:2em;}
+.mb-3 {	margin-bottom:3em;}
+.mt-1 {	margin-top:1em;}
+.mt-2 {	margin-top:2em;}
+.mt-3 {	margin-top:3em;}
+.pb-1 {	padding-bottom:1em;}
+.pb-2 {	padding-bottom:2em;}
+.pb-3 {	padding-bottom:3em;}
+.pt-1 {	padding-top:1em;}
+.pt-2 {	padding-top:2em;}
+.pt-3 {	padding-top:3em;}
+.pl-1 {	padding-left:1em;}
+.pl-2 {	padding-left:2em;}
+.pl-3 {	padding-left:3em;}
+.w100 {	width:100% !important;}
+.d-block  {	display: block !important;}
+.d-none  {display: none !important; }
+.clear-left {clear:left;}
+
+
+/* popups de OpenStreetMaps, letra más grande y Arial */
+.leaflet-popup {
+    font-size: 14px;
+    font-family: Arial;
+}
+
+/* reajustamos el icono de lo más visto a -173px 0 en los min.css y creamos el modo aviso naranja y el modo span*/
+.mw-title.orange > span  {
+	color: white;
+}
+.mw-title.orange > span::after  {
+	background-position: -199px 2px;
+}
+.mw-title.orange   {
+	background-image: inherit;
+	background-color: #003df6;	
+}
+@media screen and (max-width: 768px) {
+	.mw-title.orange::after   {
+		border-top: 7px solid #003df6;
+	}
+}
+@media screen and (min-width: 768px) {
+	.mw-title.orange::after   {
+		border-left: 7px solid #003df6;
+	}
+}
+@media screen and (min-width: 992px) {
+	.mw-content.orange   {
+		height: 59px;
+		font-size: 18px;
+	}
+}
+span.mw-item:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/* poner icono wsdl y recolocar persona carpeta */
+.ico-wsdl::after {
+    background-position: 0px -476px;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    left: 0;
+	background-image: url(img/spr-sbb4ae8566a.png);
+	background-repeat: no-repeat;
+}
+.mc-motivos::after {
+    background-position: 0 -516px;
+}    
+
+/* ajustamos el ancho de las imágenes en el tiny para que se adapten a responsive */
+.tiny-text > p > img {
+    max-width: 100%;
+}
+
+/* reducimos el padding del texto citado en el tiny */
+.tiny-text q {
+    padding: 0 4px;
+}
+
+/* en WFORS que no tiene menú hay que ocultar el menu pie que saca los botones de subir y bajar fuente, además quitamos padding */
+@media screen and (max-width: 992px) {
+	.menuVertical{
+	    padding-top: 0;
+	}
+	.botonesFuenteImprimir {
+	    display: none;
+	}
+}
+
+/* icono inscripcion detalle de actividad, se hace diferente al resto a no usar fuente, el icono se pone en el item no al title9 
+   estos cambios deben también ir en cada hoja de color cuando se integren los cambios */
+.info-actividad .inscripcion::after {
+	line-height: 100%;
+	position: absolute;
+	content: "\e012";
+	font-family: AytMadIcons;
+	color: #003df6;
+	text-indent: 0;
+	font-size: 36px;
+	top: -10px;
+	right: auto;
+	bottom: auto;
+	left: -47px;
+	text-transform: none;
+}
+
+.info-actividad .inscripcion {
+	position:relative;
+}		
+
+/* revista digital, reducir el padding para que el texto de intro quepa aun con 3 lineas  */
+.magazine {
+    padding-top: 15px;
+}
+
+/* separar más los párrafos de la leyenda lopd de comentarios para mejorar legibilidad */
+#commentEditForm .label-group p { padding-bottom:0.5em}
+
+/* en el listado queda mucho espacio debajo del icono o info de accesibilidad */
+ul.events-results .actividades-info li {
+	margin-bottom: 0px;
+}
+
+/* en el listado como accesibilidad noadaptado y parcial no tienen icono se mueven a la izquierda, si se supiera icono hay que quitar este margen*/
+ul .actividades-info li p.noadaptado, ul.events-results .actividades-info li p.parcial{
+	margin-left: -2.4em;
+}
+
+/* nuevos iconos de accesibilidad detalle entidades */
+.actividades-info .induccion::after, .actividades-info .podotactil::after, .actividades-info .signos::after {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -42px;
+	background-image: url(img/icon/induccion.png);
+	background-repeat: no-repeat;	
+	content: "";	
+}
+.actividades-info .podotactil::after {
+	background-image: url(img/icon/podotactil.png);
+}
+.actividades-info .signos::after {
+	background-image: url(img/icon/signos.png);
+}
+
+.actividades-info .adicional {
+    line-height: 20px;
+    padding: 0px 25px 0px 25px;
+    font-size: 0.875em;
+}
+
+/* los iconos de accesibilidad que están en line queda el texto muy pegado a la izquierda se les pone el padding 5 que tienen los inline */
+.detalle .actividades-info ul.list-line li {
+
+    padding-left: 5px;
+}
+/* los indicadores cuadrados no caben bien en detalles de contenido si tienen margen izquierdo, lo reducimos si están en mainContent */
+main .indicador-rectangular {
+	margin-left: 2px;
+}
+
+/* las tablas de datos en el módulo de gráficos pueden ser muy largas, se deja scroll automático */
+.grafico-container .showOnlyInIE8 {
+	overflow:auto;
+}
+
+/* reducidos los márgenes del pie */
+.footer .footer-menu{
+	padding: 0;
+}
+.footer .fql-title{
+	margin-bottom: 10px;
+}
+.footer .footer-quick-links{
+	padding: 19px 0 0;
+}
+.footer .footer-other-sites{
+	padding: 19px 0 24px;
+}
+
+/* cambio de colores de fondo, el azul oscuro del pie se pone gris fluid3g, y en el pie en móvil al seleccionar se pasa a negro */
+.bg-fluid3g {
+    background-color: #292929;
+}
+@media screen and (max-width: 767px) {
+	.footer-menu .collapse-item-active {
+			background-color: #000;
+	}
+}
+
+/* unas clases genérica de margen inferior y superior */
+.margin-top {
+    margin-top: 20px;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+/* nuevo background gris medio fluid8, en él los títulos y los enlaces tienen que ser o negros o grises oscuros */
+.bg-fluid8 {
+    background-color: #f1f1f1;
+}
+.bg-fluid8 .bg-triangle::after {
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    z-index: 1;
+    border-width: 0 136px 24px 0;
+    border-right-color: #f1f1f1;
+    left: 50%;
+    margin-left: -136px;
+}
+
+.bg-fluid8 .formasParte-title, .bg-fluid8 .formasParte-link, .bg-fluid8 .gobierno-abierto__link_title {
+	color: #333;
+}
+
+.bg-fluid8 .title5, .bg-fluid8 .formasParte-text, .bg-fluid8 .gobierno-abierto__title, .bg-fluid8 .gobierno-abierto__text {
+	color: black;
+}
+
+ .bg-fluid8 .carouselFormasParte .formasParte-text a {
+	color: #003df6;
+	border-bottom:2px solid #003df6;
+}
+
+/* hacemos un class general para que los enlaces visitados dentro de esa capa sean diferentes, se usa el color estándar
+   en el calendario en lugar de purple se ponen más claros para que se distingan mejor, y en la portada del publicaciones también que asociar al span */
+.visited-color a:visited, .visited-color a:visited span.info-link-text {
+	color: purple;
+}
+.visited-color .datepicker.datepicker-server table.table-condensed tbody td.today a:visited {
+	color: darkviolet !important;
+}
+
+/* para que quepan 12 etiquetas en el gráfico */
+.canvas-outer-container {
+    width: 100%;
+}
+
+/* en las pordadillas fwk en el módulo central los p negros de directorio pensados para agenda se juntan si ocupan 2 lineas  */
+.contacto-central .directorio-municipal li p {
+    line-height: 15px;
+}
+
+/* poner el logo de clave en la pagina de login de sede */
+.mc-acceso-item .legend-cert::after {
+    content: "";
+    color: #fff;
+    width: 61px;
+    height: 61px;
+    background: #fff;
+    background-image: url('/FwFront/new/img/clave.png');
+}
+
+/* poner el logo del ayto en la pagina de login de sede */
+.mc-acceso-item .legend-user.madrid::after {
+    content: "" !important;
+    color: #fff;
+    width: 61px;
+    height: 61px;
+    background: #fff;
+    border-radius: unset;
+    content: "";
+    background-image: url('/FwFront/new/img/logo-ayto.png');
+}
+
+/* ajustar la página de login de sede */
+@media screen and (min-width: 768px) {
+	.mc-acceso .mc-acceso-item .form-group {
+	    margin-bottom: 20px;
+	}
+}
+.mc-acceso .mc-acceso-item .legend.legend-cert {
+	max-width:61%
+}
+.mc-acceso .mc-acceso-item .legend.legend-user {
+	max-width:93%
+}
+.mc-acceso .buttons {
+	text-align:center
+}
+.mc-acceso-item ul.lista {
+	list-style:disc
+}
+.mc-acceso-item ul.lista li {
+	list-style:inherit;
+	margin: 0px 0 0px 17px
+}
+
+/* distritos, módulo de actividades en la zona mainContent */
+.actividades.actividades_interior.nofluid {
+    background: #f2f2f2;
+    padding-top:5px;
+}
+.actividades_interior .info_relevant {
+    width: 105%;
+}
+.actividades_interior .calendario {
+    min-height: 230px;
+}
+
+/* el mapa de google en direcciones hace ahora cosas raras y se sale de su capa, se limita por css */
+.info-actividad .mapa {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* AMMPG-330 la altura fija de este bloque no tiene sentido, lo pone cada plantilla */
+.newsCentralBlock .videoplayer object, .newsCentralBlock .videoplayer video {
+    height: auto;
+}
+
+/* poner icono por defecto a flv, mp3, mp4 y a mov*/
+.ico-mov::before, .ico-mp3::before, .ico-mp4::before, .ico-flv::before {
+    content: "";
+    left: -6px;
+}
+
+/* poner icono zip a gz */
+.ico-gz::after {
+    background-position: -160px -296px;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    left: 0;
+	background-image: url(img/spr-sbb4ae8566a.png);
+	background-repeat: no-repeat;
+}
+
+/* AMPP-331: Accesibilidad 07-2017 hacer más grande el subtexto de las cabeceras, pasar a 28px */
+.section-name-title > small {
+    font-size: 0.6223em;
+    padding: 0 105px;
+}
+
+/* AMMPG-258: botones subir y bajar */
+/* hay que rebajar el z-index del carrusel y de los modal para que no quede por delante */
+.header-carousel .owl-controls, .modal-alert {
+	z-index: 1 !important;
+}
+#nav_up, #nav_down {
+	width:70px; 
+	height:70px;
+	border-radius: 70px 70px;
+	padding:0; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:30px;
+	display:none;
+	opacity: 0.7;
+	box-shadow: -4px 4px 4px whiteSmoke;
+	z-index:500;
+}
+#nav_up {
+	right:90px;
+	background: url('/new/img/arrow_up-gris.png') no-repeat 0px 5px;	
+}
+#nav_down {
+	right:20px;
+	background: url('/new/img/arrow_down-gris.png') no-repeat 0px 5px;
+}
+#nav_up:hover, #nav_down:hover{
+	text-decoration:none;
+	opacity: 1 !important;
+}
+
+/* AMMPG-240: soporte parcial de elementos del tiny-text en los paneles de notificación */
+.info-seccion .modal-alert p {
+    margin-bottom: 10px;
+}
+.info-seccion .modal-alert em {
+    font-style: italic !important;
+}
+.info-seccion .modal-alert ul {
+    list-style-type: disc;
+    padding: 5px 0;
+}
+.info-seccion .modal-alert ol {
+    list-style-type: decimal;
+    padding: 5px 0;
+}
+.info-seccion .modal-alert ul ol ul, .info-seccion .modal-alert ul ul, .info-seccion .modal-alert ul ul ol ul, .info-seccion .modal-alert ul ul ul {
+    list-style-type: disc;
+}
+.info-seccion .modal-alert ul li, .info-seccion .modal-alert ol li {
+    margin: 10px 0 10px 17px;
+    list-style: inherit;
+    font-size: 14px;
+}
+
+/* para que quepan 5 iconos en el listado del catálogo */
+.global-results .events-results > li.withtable .event-info.min ul li {
+    width: 32px;
+}
+
+/* al atom de PLACSP se pone el mismo icono que el RSS */
+.ico-atom::before {
+    content: "~";
+}
+
+/* Arrows CarouselHome */
+/*
+.carouselHome.owl-theme .owl-controls .owl-pagination .owl-page span, .carouselHome.owl-theme .owl-controls .owl-pagination .owl-page.active span { background: none; border: 0;}
+.carouselHome.owl-theme .owl-controls .owl-pagination .owl-page span:after{
+	color: white;
+	content:"g";
+	font-family: "AytMadIcons2";
+	font-size: 27px;
+    font-weight: bold;
+	position: relative;
+	text-shadow: 0px 0px 4px #666;
+}
+.carouselHome.owl-theme .owl-controls .owl-pagination .owl-page + .owl-page span:after{ content: "f";}
+.carouselHome.owl-theme .owl-controls .owl-pagination .owl-page.active span:after{ color: #0077b9;}
+*/
+
+/* WEM CLOUD */
+/* en el cloud el wordwrap del ice.css afecta a la paginacion */
+.container {word-wrap:normal; }
+.pagination > li.prev , .pagination > li.next { word-wrap:normal; }
+
+/* quitamos cosas del templating */
+.vgn-ext-region, .vgn-ext-component  { min-height:0px !important;}
+strong{font-weight: 700 !important;}
+
+/* el vext.css lo capa en preview */
+.tiny-text em {
+    font-style: italic !important;
+}
+
+.mt-06 {
+    margin-top: 0.6em;
+}
